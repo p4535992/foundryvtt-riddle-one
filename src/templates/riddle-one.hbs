@@ -1,0 +1,9 @@
+{{#each imagescards}}
+<button class="riddle-flex-container" id="{{this.id}}" actionType="{{this.data.data.actionType}}">
+    <img class="riddle-icon" src="{{this.img}}" />
+    <div class="riddle-item-details">
+        <div class="riddle-name">{{this.name}}</div>
+        <div class="riddle-type">{{riddle-type this}}</div>
+    </div>
+</button>
+{{/each}}
